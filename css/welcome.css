@@ -16,12 +16,12 @@
 .welcome-header__column:nth-child(2) {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .welcome-header__column:last-child {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .welcome-header__column .fa-lock {
@@ -56,6 +56,7 @@
 .welcome-form {
   display: flex;
   flex-direction: column;
+  margin: 0 20px;
 
 }
 
@@ -82,10 +83,13 @@
   border: none;
   font-size: 15px;
   background-color: #F6F6F6;
+  cursor: pointer;
+  border-radius: 13px;
 }
 
 .welcome-form a {
   text-align: center;
   text-decoration: none;
   color: #4E4E4E;
+  cursor: pointer;
 }
