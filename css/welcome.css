@@ -1,0 +1,91 @@
+.welcome-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.welcome-header__column {
+  width: 33%;
+}
+
+.welcome-header__column:first-child {
+  justify-content: flex-start;
+}
+
+
+.welcome-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.welcome-header__column .fa-lock {
+  margin-right: 10px;
+}
+
+.welcome-header__column span {
+  margin-right: 5px;
+}
+
+.welcome-header__column .fa-bolt-lightning {
+  margin-left: 6px;
+}
+
+.welcome-main {
+  margin-top: 90px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.welcome-main__title {
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.welcome-main__description {
+  margin-top: 37px;
+  opacity: .5;
+  font-size: 18px;
+}
+
+.welcome-form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.welcome-form__input {
+  border: none;
+  border-bottom: 1px solid  rgba(0, 0, 0, .2);
+  opacity: .7;
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 30px 18px;
+  outline: none;
+}
+
+.welcome-form__btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.welcome-form__btn button {
+  padding: 20px 0;
+  margin-bottom: 15px;
+  border: none;
+  font-size: 15px;
+  background-color: #F6F6F6;
+}
+
+.welcome-form a {
+  text-align: center;
+  text-decoration: none;
+  color: #4E4E4E;
+}

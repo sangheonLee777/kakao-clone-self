@@ -6,10 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome</title>
+  <link rel="stylesheet" href="css/welcome.css">
 </head>
 
 <body>
-  <header class="welcome__header">
+  <header class="welcome-header">
     <div class="welcome-header__column">
       <span>No service</span>
       <i class="fa-solid fa-wifi"></i>
@@ -24,21 +25,29 @@
       <i class="fa-solid fa-bolt-lightning"></i>
     </div>
   </header>
+
+
   <main class="welcome-main">
     <h1 class="welcome-main__title">Welcome to KakaoTalk</h1>
     <div class="welcome-main__description">
-      if you hav a Kakao Account,log in with your email or phone number.
+      if you hav a Kakao Account,<br /> log in with your email or phone number.
     </div>
   </main>
+
 
   <form class="welcome-form" action="">
     <input class="welcome-form__input" type="text" placeholder="Email or phone number">
     <input class="welcome-form__input" type="password" placeholder="Password">
-    <button class="welcome-form__btn">Log In</button>
-    <button class="welcome-form__btn">Sign Up</button>
+
+    <div class="welcome-form__btn">
+      <button>Log In</button>
+      <button>Sign Up</button>
+    </div>
+
+    <a href="#">Find Kakao Account or Password</a>
   </form>
 
-  <a href="#">Find Kakao Account or Password</a>
+ 
 
 
   <script src="https://kit.fontawesome.com/afae669309.js" crossorigin="anonymous"></script>
