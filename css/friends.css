@@ -1,0 +1,37 @@
+.friends-statusbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.friends-statusbar__coulmn {
+  width: 33%;
+}
+
+.friends-statusbar__coulmn:first-child {
+  justify-content: flex-start;
+}
+
+
+.friends-statusbar__coulmn:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.friends-statusbar__coulmn:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.friends-statusbar__coulmn .fa-lock {
+  margin-right: 10px;
+}
+
+.friends-statusbar__coulmn span {
+  margin-right: 5px;
+}
+
+.friends-statusbar__coulmn .fa-bolt-lightning {
+  margin-left: 6px;
+}
