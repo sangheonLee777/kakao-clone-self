@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome</title>
-  <link rel="stylesheet" href="css/friends.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href=" css/friends.css">
 </head>
 
 <body>
@@ -28,37 +29,46 @@
 
 
   <header class="friends-header">
-    <div class="friends-header__column">Friends</div>
+    <h2 class="friends-header__title">Friends</h2>
     <div class="friends-header__column">
-      icon
-      icon
-      icon
+      <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+      <i class="fa-solid fa-music fa-lg"></i>
+      <i class="fa-solid fa-gear fa-lg"></i>
     </div>
   </header>
 
   <div class="friends-link">
-    <a href="#">icon Friends Names Display icon</a>
+    <a href="#">
+      <i class="fa-solid fa-circle-info"></i>
+      Friends Names Display
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
   </div>
 
   <main class="friends-main">
+
     <div class="friends-main__column">
-      <img src="" alt="user-img">
-      <h3 class="friends-main__user-name">Lee</h3>
+      <img class="" src="screenshots 2/1..png" alt="user-img">
+      <div class="friends-main__user-text">
+        <h4 class="friends-main__user-name">Lee</h4>
+        <h6 class="friends-main__user-description">Hi</h6>
+      </div>
+
     </div>
 
     <div class="friends-main__channel">
       <h4>Channel</h4>
-      icon
+      <span><i class="fa-solid fa-angle-up"></i></span>
     </div>
 
     <div class="friends-main__bar">
-      <div class="friends-main__column">
-        <img src="" alt="ch">
-        <h3 class="friends-main__user-name">Channel</h3>
+      <div class="friends-main__bar-column">
+        <img src="screenshots 2/ch11.png" alt="ch">
+        <h3 class="friends-main__bar-column__user-name">Channel</h3>
       </div>
-      <div class="friends-main__column__right">
+      <div class="friends-main__bar-column__right">
         <h3>2</h3>
-        <span>icon</span>
+        <span><i class="fa-solid fa-angle-right"></i></span>
       </div>
     </div>
 
@@ -66,10 +76,26 @@
 
   <nav class="friends-navbar">
     <ul class="friends-navbar__links">
-      <li class="friends-navbar__links-btn"><a href="friends.html">icon</a></li>
-      <li class="friends-navbar__links-btn"><a href="">icon</a></li>
-      <li class="friends-navbar__links-btn"><a href="">icon</a></li>
-      <li class="friends-navbar__links-btn"><a href="">icon</a></li>
+      <li class="friends-navbar__links-btn">
+        <a href="friends.html"><i class="fa-solid fa-user fa-2x"></i>
+        </a>
+      </li>
+      <li class="friends-navbar__links-btn">
+        <a href=""><i class="fa-solid fa-comment fa-2x"></i>
+          <span class="friends-navbar__links-btn-red">1</span>
+        </a>
+      </li>
+      <li class="friends-navbar__links-btn">
+        <a href="">
+          <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+        </a>
+      </li>
+      <li class="friends-navbar__links-btn">
+        <a href="">
+          <i class="fa-solid fa-ellipsis fa-2x"></i>
+          <div class="friends-navbar__links-btn-dot"></div>
+        </a>
+      </li>
     </ul>
   </nav>
 

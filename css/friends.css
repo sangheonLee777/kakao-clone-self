@@ -1,3 +1,5 @@
+
+
 .friends-statusbar {
   display: flex;
   justify-content: space-around;
@@ -34,4 +36,154 @@
 
 .friends-statusbar__coulmn .fa-bolt-lightning {
   margin-left: 6px;
+}
+
+.friends-header {
+  display: flex;
+  margin: 25px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friends-header__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.friends-header__column i {
+  margin: 0 10px;
+}
+
+.friends-link {
+  padding: 10px 0;
+  background-color: #D5D5D5;
+  text-align: center;
+  position: relative;
+  border-radius: 15px;
+}
+
+.friends-link .fa-angle-right {
+  position: absolute;
+  right: 135px;
+}
+
+.friends-link .fa-circle-info {
+  position: absolute;
+  left: 139px;
+}
+
+.friends-link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.friends-main {
+  padding: 0 25px;
+}
+
+.friends-main__column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  padding: 20px 0;
+}
+
+.friends-main__column img {
+  border-radius: 20px;
+  background-color: gray;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.friends-main__user-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.friends-main__user-description {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.friends-main__channel {
+  display: flex;
+  justify-content: space-between;
+  color: #6f6e6e;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.friends-main__bar-column {
+  display: flex;
+  align-items: center;
+}
+
+.friends-main__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friends-main__bar-column img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+
+.friends-main__bar-column__user-name {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.friends-main__bar-column__right {
+  display: flex;
+  color: #6f6e6e;
+}
+
+.friends-main__bar-column__right h3 {
+  margin-right: 8px;
+}
+
+.friends-navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 20px 0;
+  background-color: #F9F9FA;
+}
+
+.friends-navbar__links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.friends-navbar a {
+  position: relative;
+}
+
+.friends-navbar__links-btn-red {
+  position: absolute;
+  top: -16px;
+  right: -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  color: white;
+}
+
+.friends-navbar__links-btn-dot {
+  background-color: red;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  top: -10px;
+  right: -4px;
 }
