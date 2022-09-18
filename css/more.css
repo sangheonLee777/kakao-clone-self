@@ -1,0 +1,148 @@
+.find-statusbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.find-statusbar__coulmn {
+  width: 33%;
+}
+
+.find-statusbar__coulmn:first-child {
+  justify-content: flex-start;
+}
+
+
+.find-statusbar__coulmn:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.find-statusbar__coulmn:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.find-statusbar__coulmn .fa-lock {
+  margin-right: 10px;
+}
+
+.find-statusbar__coulmn span {
+  margin-right: 5px;
+}
+
+.find-statusbar__coulmn .fa-bolt-lightning {
+  margin-left: 6px;
+}
+
+.find-header {
+  display: flex;
+  position: relative;
+  padding: 0 25px;
+  margin: 25px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.find-header__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.find-header__column i {
+  margin: 0 10px;
+}
+
+.find-header__red {
+  position: absolute;
+  top: -5px;
+  right: 21px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.more-main {
+  padding: 0 25px;
+}
+
+.more-main__user {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.more-main__user-column {
+  display: flex;
+  align-items: center;
+}
+
+.more-main__user img {
+  background-color: gray;
+  border-radius: 20px;
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.more-main__user-column__description h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.more-main__user-column__description h4 {
+  opacity: .4;
+}
+
+.more-main__user-column__description i {
+  color: red;
+}
+
+
+.more-main__icons i {
+  font-size: 35px;
+}
+
+.find-navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 20px 0;
+  background-color: #F9F9FA;
+}
+
+.find-navbar__links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.find-navbar a {
+  position: relative;
+}
+
+.find-navbar__links-btn-red {
+  position: absolute;
+  top: -16px;
+  right: -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  color: white;
+}
+
+.find-navbar__links-btn-dot {
+  background-color: red;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  top: -10px;
+  right: -4px;
+}
