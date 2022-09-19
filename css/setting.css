@@ -1,0 +1,134 @@
+.setting-statusbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.setting-statusbar__coulmn {
+  width: 33%;
+}
+
+.setting-statusbar__coulmn:first-child {
+  justify-content: flex-start;
+}
+
+
+.setting-statusbar__coulmn:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.setting-statusbar__coulmn:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.setting-statusbar__coulmn .fa-lock {
+  margin-right: 10px;
+}
+
+.setting-statusbar__coulmn span {
+  margin-right: 5px;
+}
+
+.setting-statusbar__coulmn .fa-bolt-lightning {
+  margin-left: 6px;
+}
+
+.setting-header {
+  display: flex;
+  padding: 0 25px;
+  margin: 25px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+.settings-main {
+  margin-top: 40px;
+  padding: 0 25px;
+}
+
+
+
+.settings-main i {
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+.settings-main__top {
+  border-bottom: 2px solid rgba(0, 0, 0, .4);
+}
+
+.settings-main__top>li:last-child {
+  border-bottom: none;
+}
+
+.settings-main__top-list {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+.settings-main__top-opcacity {
+  font-size: 20px;
+  font-weight: 400;
+  opacity: .5;
+}
+
+.settings-main__top-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+
+.find-navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 20px 0;
+  background-color: #F9F9FA;
+}
+
+.find-navbar__links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.find-navbar a {
+  position: relative;
+}
+
+.find-navbar__links-btn-red {
+  position: absolute;
+  top: -16px;
+  right: -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  color: white;
+}
+
+.find-navbar__links-btn-dot {
+  background-color: red;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  top: -10px;
+  right: -4px;
+}

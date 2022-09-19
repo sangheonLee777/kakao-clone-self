@@ -1,42 +1,42 @@
-.find-statusbar {
+.more-statusbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.find-statusbar__coulmn {
+.more-statusbar__coulmn {
   width: 33%;
 }
 
-.find-statusbar__coulmn:first-child {
+.more-statusbar__coulmn:first-child {
   justify-content: flex-start;
 }
 
 
-.find-statusbar__coulmn:nth-child(2) {
+.more-statusbar__coulmn:nth-child(2) {
   display: flex;
   justify-content: center;
 }
 
-.find-statusbar__coulmn:last-child {
+.more-statusbar__coulmn:last-child {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.find-statusbar__coulmn .fa-lock {
+.more-statusbar__coulmn .fa-lock {
   margin-right: 10px;
 }
 
-.find-statusbar__coulmn span {
+.more-statusbar__coulmn span {
   margin-right: 5px;
 }
 
-.find-statusbar__coulmn .fa-bolt-lightning {
+.more-statusbar__coulmn .fa-bolt-lightning {
   margin-left: 6px;
 }
 
-.find-header {
+.more-header {
   display: flex;
   position: relative;
   padding: 0 25px;
@@ -45,19 +45,19 @@
   align-items: center;
 }
 
-.find-header__title {
+.more-header__title {
   font-size: 30px;
   font-weight: 600;
 }
 
-.find-header__column i {
+.more-header__column i {
   margin: 0 10px;
 }
 
-.find-header__red {
+.more-header__red {
   position: absolute;
   top: -5px;
-  right: 21px;
+  right: 27px;
   width: 6px;
   height: 6px;
   border-radius: 50%;
