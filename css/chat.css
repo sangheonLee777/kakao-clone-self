@@ -37,7 +37,9 @@
   margin-left: 6px;
 }
 
-
+body {
+  background-color: #ABC0D1;
+}
 
 
 
@@ -149,43 +151,55 @@
   margin-left: 15px;
 }
 
-.find-navbar {
+
+.message-row {
   position: fixed;
-  bottom: 0;
-  width: 100vw;
-  padding: 20px 0;
-  background-color: #F9F9FA;
-}
-
-.find-navbar__links {
+  bottom: 0px;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: white;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 5px 20px;
 }
 
-.find-navbar a {
+.message-row__column:first-child {
+  width: 10%;
+}
+
+.message-row__column:last-child {
+  width: 90%;
   position: relative;
 }
 
-.find-navbar__links-btn-red {
-  position: absolute;
-  top: -16px;
-  right: -6px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
-  width: 18px;
-  height: 18px;
-  border-radius: 9px;
-  color: white;
+.message-row__column input {
+  padding: 10px;
+  width: 100%;
+  border:2px solid #F3B4D0;
+  border-radius: 25px;
 }
 
-.find-navbar__links-btn-dot {
-  background-color: red;
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
+.message-row__column:last-child > i,
+.message-row__column:last-child button {
   position: absolute;
-  top: -10px;
-  right: -4px;
+  top: 3px;
+  right: -20px;
 }
+
+.message-row__column:last-child > i {
+  top: 17px;
+  right: 40px;
+}
+
+.message-row__column:last-child button {
+  background-color: #F2B4D0;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+
+
+
